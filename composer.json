@@ -9,7 +9,7 @@
         "ext-xsl": "*",
         "ext-dom": "*",
         "ext-libxml": "*",
-        "symfony/symfony": "^3.4",
+        "se7enxweb/symfony": "^3.4",
         "se7enxweb/ezpublish-kernel": "^7.5.11@dev",
         "se7enxweb/repository-forms": "^2.0"
     },

@@ -114,7 +114,7 @@ class RichTextTest extends AbstractParserTestCase
             'fieldtypes.ezrichtext.output_custom_xsl',
             [
                 0 => [
-                    'path' => '%kernel.root_dir%/../vendor/ezsystems/ezplatform-richtext/src/lib/eZ/RichText/Resources/stylesheets/docbook/xhtml5/output/core.xsl',
+                    'path' => '%kernel.root_dir%/../vendor/se7enxweb/ezplatform-richtext/src/lib/eZ/RichText/Resources/stylesheets/docbook/xhtml5/output/core.xsl',
                     'priority' => 0,
                 ],
             ],
@@ -293,7 +293,7 @@ class RichTextTest extends AbstractParserTestCase
                 [
                     'fieldtypes.ezrichtext.output_custom_xsl' => [
                         // Default settings will be added
-                        ['path' => '%kernel.root_dir%/../vendor/ezsystems/ezplatform-richtext/src/lib/eZ/RichText/Resources/stylesheets/docbook/xhtml5/output/core.xsl', 'priority' => 0],
+                        ['path' => '%kernel.root_dir%/../vendor/se7enxweb/ezplatform-richtext/src/lib/eZ/RichText/Resources/stylesheets/docbook/xhtml5/output/core.xsl', 'priority' => 0],
                         ['path' => '/foo/bar.xsl', 'priority' => 123],
                         ['path' => '/foo/custom.xsl', 'priority' => -10],
                         ['path' => '/another/custom.xsl', 'priority' => 27],
@@ -315,7 +315,7 @@ class RichTextTest extends AbstractParserTestCase
                 [
                     'fieldtypes.ezrichtext.edit_custom_xsl' => [
                         // Default settings will be added
-                        ['path' => '%kernel.root_dir%/../vendor/ezsystems/ezplatform-richtext/src/lib/eZ/RichText/Resources/stylesheets/docbook/xhtml5/edit/core.xsl', 'priority' => 0],
+                        ['path' => '%kernel.root_dir%/../vendor/se7enxweb/ezplatform-richtext/src/lib/eZ/RichText/Resources/stylesheets/docbook/xhtml5/edit/core.xsl', 'priority' => 0],
                         ['path' => '/foo/bar.xsl', 'priority' => 123],
                         ['path' => '/foo/custom.xsl', 'priority' => -10],
                         ['path' => '/another/custom.xsl', 'priority' => 27],

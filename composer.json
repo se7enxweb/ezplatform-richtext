@@ -70,8 +70,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "2.3.x-dev",
-            "dev-2.3-se7enx": "2.3.x-dev"
+            "dev-master": "2.3.x-dev"
         }
     },
     "config": {

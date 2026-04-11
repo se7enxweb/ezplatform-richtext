@@ -1,3 +1,5 @@
+@use './vars' as *;
+@use './functions/checkbox-switcher' as *;
 @font-face {
     font-family: 'alloyeditor-ez';
     src: url('/bundles/ezplatformrichtext/fonts/alloyeditor-ez.eot');

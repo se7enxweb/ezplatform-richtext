@@ -1,3 +1,4 @@
+@use './vars' as *;
 .ez-custom-tag {
     max-width: 100%;
     border: calculateRem(1px) solid $ibexa-color-base-pale;
